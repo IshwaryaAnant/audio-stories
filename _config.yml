@@ -1,5 +1,7 @@
-theme: jekyll-theme-slate
+theme: minima
 title: Audio Stories Demo
 description: Sound examples from our work on gestalt-cognition informed audio summarization
 github:
   is_project_page: false
+plugins:
+  - jekyll-feed
