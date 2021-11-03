@@ -10,7 +10,7 @@ Ishwarya Ananthabhotla, David Ramsay, Joseph Paradiso. Towards Gestalt Computati
 ## Audio Examples
 
 | Audio Source | Summary 1 | Summary 2 | Strategy | 
-| ------------ |------------ |------------ |------------ |
+| :------------: |:------------: | :------------: | :------------: |
 | [source](https://aporee.org/maps/?loc=20205&m=roadmap) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_most_confus.wav" type="audio/wav" /></audio> | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_least_confus.wav" type="audio/wav" /></audio> | inversely scaling confusability and memorability |
 | [source](https://aporee.org/maps/?loc=33730&m=satellite) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/saddar_most_arousal.wav" type="audio/wav" /></audio> | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/saddar_least_tot_salience.wav" type="audio/wav" /></audio> | scaling arousal and salience |
 | [source](https://tidmarsh.media.mit.edu/) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/tidmarsh_background.wav" type="audio/wav" /></audio> | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/tidmost_most_valent.wav" type="audio/wav" /></audio> | (1) semantic self-similarity; (2) high valence |
