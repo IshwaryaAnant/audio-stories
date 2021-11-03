@@ -11,7 +11,10 @@ Ishwarya Ananthabhotla, David Ramsay, Joseph Paradiso. Towards Gestalt Computati
 
 | Audio Source | Summary 1 | Summary 2 | Strategy | 
 | ------------ |------------ |------------ |------------ |
-| [source](https://aporee.org/maps/?loc=20205&m=roadmap) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_most_confus.wav" type="audio/wav" /></audio> | test | inversely scaling confusability and memorability |
+| [source](https://aporee.org/maps/?loc=20205&m=roadmap) 
+| <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_most_confus.wav" type="audio/wav" /></audio> 
+| <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_least_confus.wav" type="audio/wav" /></audio> 
+| inversely scaling confusability and memorability |
 
 
 
