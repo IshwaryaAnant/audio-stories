@@ -1,3 +1,19 @@
+## Project Overview
+
+We use simple gestalt sound understanding estimation models to tag and recombine continuous audio recordings to generate shorter presentations that result in different listening experiences.  For more information about the modeling work, see:
+
+```
+Ishwarya Ananthabhotla, David Ramsay, Joseph Paradiso. Towards Gestalt Computation in Sound, NeurIPS Workshop on Machine Learning for Creativity and Design, 2021.
+```
+
+## Audio Examples
+
+| Audio Source | Summary 1 | Summary 2 | Strategy | 
+| ------------ |------------ |------------ |------------ |
+| [source](https://aporee.org/maps/?loc=20205&m=roadmap) | {% include embed-audio.html src="/assets/audio/<audio-source-name>.wav" %} | {% include embed-audio.html src="/assets/audio/<audio-source-name>.wav" %} | inversely scaling confusability and memorability |
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/IshwaryaAnant/audio-stories/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
