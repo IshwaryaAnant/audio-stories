@@ -1,57 +1,18 @@
 
 ## Project Overview
 
-We use simple gestalt sound understanding estimation models to tag and recombine continuous audio recordings to generate shorter presentations that result in different listening experiences.  For more information about the modeling work, see:
+We bootstrap models capable of estimating gestalt principles in sound understanding, and use them to tag and recombine continuous audio recordings to generate shorter presentations (which we call 'summaries') that result in different listening experiences.  Some contrasting examples of summaries generated from the same body of audio are given below, along with a description of the feature strategy used to generate them.  For more information about the modeling work, see:
 
-```
+
 Ishwarya Ananthabhotla, David Ramsay, Joseph Paradiso. Towards Gestalt Computation in Sound, NeurIPS Workshop on Machine Learning for Creativity and Design, 2021.
-```
+
 
 ## Audio Examples
 
 | Audio Source | Summary 1 | Summary 2 | Strategy | 
 | ------------ |------------ |------------ |------------ |
-| [source](https://aporee.org/maps/?loc=20205&m=roadmap) 
-| <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_most_confus.wav" type="audio/wav" /></audio> 
-| <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_least_confus.wav" type="audio/wav" /></audio> 
-| inversely scaling confusability and memorability |
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/IshwaryaAnant/audio-stories/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IshwaryaAnant/audio-stories/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| [source](https://aporee.org/maps/?loc=20205&m=roadmap) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_most_confus.wav" type="audio/wav" /></audio> | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/jackson_least_confus.wav" type="audio/wav" /></audio> | inversely scaling confusability and memorability |
+| [source](https://aporee.org/maps/?loc=33730&m=satellite) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/saddar_most_arousal.wav" type="audio/wav" /></audio> | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/saddar_least_tot_salience.wav" type="audio/wav" /></audio> | scaling arousal and salience |
+| [source](https://tidmarsh.media.mit.edu/) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/tidmarsh_background.wav" type="audio/wav" /></audio> | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/tidmost_most_valent.wav" type="audio/wav" /></audio> | (1) semantic self-similarity; (2) high valence |
+| [source](https://aporee.org/maps/?loc=13612&m=satellite) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/dubai_least_s-ssm.wav" type="audio/wav" /></audio> | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/dubai_most_s-ssm.wav" type="audio/wav" /></audio> | scaling semantic self-similarity |
+| [source](https://aporee.org/maps/?loc=18119&m=satellite) | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/mongolia_least_valence.wav" type="audio/wav" /></audio> | <audio controls="" style="width: 160px;height: 50px"><source src="./assets/audio/mongolia_most_valence.wav" type="audio/wav" /></audio> | scaling valence |
